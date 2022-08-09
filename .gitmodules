@@ -13,3 +13,6 @@
 [submodule "polybar"]
 	path = polybar
 	url = https://mpgithubcode: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@github.com/mpgithubcode/polybar.git
+[submodule "ranger"]
+	path = ranger
+	url = https://mpgithubcode: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@github.com/mpgithubcode/ranger.git
