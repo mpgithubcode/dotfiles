@@ -7,3 +7,6 @@
 [submodule "kitty"]
 	path = kitty
 	url = https://mpgithubcode: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@github.com/mpgithubcode/kitty.git
+[submodule "picom"]
+	path = picom
+	url = https://mpgithubcode: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@github.com/mpgithubcode/picom.git
