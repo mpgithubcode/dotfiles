@@ -10,3 +10,6 @@
 [submodule "picom"]
 	path = picom
 	url = https://mpgithubcode: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@github.com/mpgithubcode/picom.git
+[submodule "polybar"]
+	path = polybar
+	url = https://mpgithubcode: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@github.com/mpgithubcode/polybar.git
