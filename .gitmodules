@@ -19,3 +19,6 @@
 [submodule "rofi"]
 	path = rofi
 	url = https://mpgithubcode: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@github.com/mpgithubcode/rofi.git
+[submodule "sxhkd"]
+	path = sxhkd
+	url = https://mpgithubcode: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@github.com/mpgithubcode/sxhkd.git
