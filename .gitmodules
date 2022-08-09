@@ -16,3 +16,6 @@
 [submodule "ranger"]
 	path = ranger
 	url = https://mpgithubcode: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@github.com/mpgithubcode/ranger.git
+[submodule "rofi"]
+	path = rofi
+	url = https://mpgithubcode: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@github.com/mpgithubcode/rofi.git
