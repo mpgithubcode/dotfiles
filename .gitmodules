@@ -1,3 +1,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://mpgithubcode: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@github.com/mpgithubcode/neovim.git
+[submodule "bspwm"]
+	path = bspwm
+	url = https://mpgithubcode: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@github.com/mpgithubcode/bspwm.git
