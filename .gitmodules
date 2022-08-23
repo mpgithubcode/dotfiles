@@ -29,7 +29,7 @@
 	path = .config/kitty
 	url = git@github.com:mpgithubcode/kitty.git
 [submodule ".config/neovim"]
-	path = .config/neovim
+	path = .config/nvim
 	url = git@github.com:mpgithubcode/neovim.git
 [submodule ".config/picom"]
 	path = .config/picom
