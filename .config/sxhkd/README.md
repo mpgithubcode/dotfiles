@@ -1,1 +1,0 @@
-sxhkd config files
