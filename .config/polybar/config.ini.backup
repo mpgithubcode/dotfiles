@@ -1,0 +1,139 @@
+include-file = /home/$USER/.config/polybar/colors.ini
+include-directory = /home/$USER/.config/polybar/modules
+
+[bar/mainbar]
+;monitor = 
+;monitor-fallback =
+;monitor-strict = false
+;override-redirect = false
+
+bottom = false
+fixed-center = true
+
+width = 100%
+height = 30
+
+dpi = 144
+
+background = #00000000
+foreground = ${colors.foreground}
+
+;line-size = 4pt
+
+border-size = 4
+border-color = #00000000
+
+padding-left = 0
+padding-right = 0
+
+module-margin = 1
+
+;separator = |
+;separator-foreground = ${colors.foreground}
+
+;font-0 = "Iosevka:size=13;2"
+;font-1 = "Symbols Nerd Font:style=2048-em:size=30;2"
+font-0 = "Source Code Pro:style=Semibold:size=13;2"
+font-1 = "Wuncon Siji:size=12;2"
+font-2 = "Iosevka Nerd Font:style=Medium:size=12;3"
+
+modules-left = launcher time date
+modules-center = title
+modules-right = xkeyboard battery temperature memory network 
+
+dim-value = 10.0
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+enable-ipc = true
+
+; tray-position = right
+
+; wm-restack = generic
+wm-restack = bspwm
+; wm-restack = i3
+
+; override-redirect = true
+;tray-position = none
+;tray-detached = false
+;tray-maxsize = 60
+;tray-transparent = false
+;tray-background = ${color.bground}
+;tray-offset-x = 10
+;tray-offset-y = 10
+;tray-padding = 10
+;tray-scale = 1.0
+
+[settings]
+screenchange-reload = true
+pseudo-transparency = true
+
+[module/launcher-left]
+type = custom/text
+content-background = ${colors.red2}
+content-foreground = ${colors.color8}
+content = "%{T3}%{T-}"
+
+[module/time-left]
+type = custom/text
+content-background = ${colors.foreground}
+content-foreground = ${colors.red2}
+content = "%{T3}%{T-}"
+
+[module/date-left]
+type = custom/text
+;content-background = ${colors.color0}
+content-foreground = ${colors.foreground}
+content = "%{T3}%{T-}"
+
+[module/title-left]
+type = custom/text
+;content-background = ${colors.color0}
+content-foreground = ${colors.blue2}
+content = "%{T3}%{T-}"
+
+[module/title-right]
+type = custom/text
+;content-background = ${colors.color0}
+content-foreground = ${colors.blue2}
+content = "%{T3}%{T-}"
+
+[module/battery-right]
+type = custom/text
+;content-background = ${colors.color0}
+content-foreground = ${colors.green2}
+content = "%{T3}%{T-}"
+
+[module/temperature-right]
+type = custom/text
+content-background = ${colors.green2}
+content-foreground = ${colors.white1}
+content = "%{T3}%{T-}"
+
+[module/memory-right]
+type = custom/text
+content-background = ${colors.white1}
+;content-foreground = ${colors.white1}
+content = "%{T3}%{T-}"
+
+[module/network-right]
+type = custom/text
+content-background = ${colors.white1}
+content-foreground = ${colors.cyan2}
+content = "%{T3}%{T-}"
+
+
+
+
+
+
+[module/launcher]
+type = custom/text
+content = 
+
+content-background = ${colors.color8}
+content-foreground = ${colors.foreground}
+content-padding = 2
+
+click-left = rofi -show run
+; vim:ft=dosini
