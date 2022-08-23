@@ -1,24 +1,24 @@
 [submodule "nvim"]
-	path = nvim
-	url = https://mpgithubcode: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@github.com/mpgithubcode/neovim.git
+	path = .config/nvim
+  url = git@github.com:mpgithubcode/neovim.git
 [submodule "bspwm"]
-	path = bspwm
-	url = https://mpgithubcode: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@github.com/mpgithubcode/bspwm.git
+	path = .config/bspwm
+  url = git@github.com:mpgithubcode/bspwm.git
 [submodule "kitty"]
-	path = kitty
-	url = https://mpgithubcode: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@github.com/mpgithubcode/kitty.git
+	path = .config/kitty
+  url = git@github.com:mpgithubcode/kitty.git
 [submodule "picom"]
-	path = picom
-	url = https://mpgithubcode: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@github.com/mpgithubcode/picom.git
+	path = .config/picom
+  url = git@github.com:mpgithubcode/picom.git
 [submodule "polybar"]
-	path = polybar
-	url = https://mpgithubcode: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@github.com/mpgithubcode/polybar.git
+	path = .config/polybar
+  url = git@github.com:mpgithubcode/polybar.git
 [submodule "ranger"]
-	path = ranger
-	url = https://mpgithubcode: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@github.com/mpgithubcode/ranger.git
+	path = .config/ranger
+  url = git@github.com:mpgithubcode/ranger.git
 [submodule "rofi"]
-	path = rofi
-	url = https://mpgithubcode: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@github.com/mpgithubcode/rofi.git
+	path = .config/rofi
+  url = git@github.com:mpgithubcode/rofi.git
 [submodule "sxhkd"]
-	path = sxhkd
-	url = https://mpgithubcode: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@github.com/mpgithubcode/sxhkd.git
+	path = .config/sxhkd
+  url = git@github.com:mpgithubcode/sxhkd.git
