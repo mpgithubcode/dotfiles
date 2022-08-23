@@ -22,3 +22,24 @@
 [submodule ".config/sxhkd"]
 	path = .config/sxhkd
 	url = git@github.com:mpgithubcode/sxhkd.git
+[submodule ".config/bspwm"]
+	path = .config/bspwm
+	url = git@github.com:mpgithubcode/bspwm.git
+[submodule ".config/kitty"]
+	path = .config/kitty
+	url = git@github.com:mpgithubcode/kitty.git
+[submodule ".config/neovim"]
+	path = .config/neovim
+	url = git@github.com:mpgithubcode/neovim.git
+[submodule ".config/picom"]
+	path = .config/picom
+	url = git@github.com:mpgithubcode/picom.git
+[submodule ".config/polybar"]
+	path = .config/polybar
+	url = git@github.com:mpgithubcode/polybar.git
+[submodule ".config/ranger"]
+	path = .config/ranger
+	url = git@github.com:mpgithubcode/ranger.git
+[submodule ".config/rofi"]
+	path = .config/rofi
+	url = git@github.com:mpgithubcode/rofi.git
