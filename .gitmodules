@@ -43,3 +43,6 @@
 [submodule ".config/rofi"]
 	path = .config/rofi
 	url = git@github.com:mpgithubcode/rofi.git
+[submodule "wallpapers"]
+	path = wallpapers
+	url = git@github.com:mpgithubcode/wallpapers.git
